@@ -11,13 +11,16 @@ function frameIt(){
   )
 }
 function pressIt(){
-  $('form').on ('keydown', (key) =>
+  $('form').on ('keydown', function (key){
     if($('input').val() === 71){
       alert('you pressed G')
     }
-  )
+  })
 }
 
+function submitIt(){
+  $('form').on ('submit', function)
+}
 
 $(document).ready(function(){
 
