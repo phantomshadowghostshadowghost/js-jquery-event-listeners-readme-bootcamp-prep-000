@@ -1,14 +1,17 @@
 //define functions here
 function getIt(){
-  $('p').on ('click', function(click){
-alert(`"Hey!"`)
-  })
+  $('p').on ('click', (click) =>
+alert(`"Hey!"`))
+  
 }
 
 function frameIt(){
   $('img').on ('load', function(){
    $('img').addClass('tasty')
   })
+}
+function pressIt(){
+  
 }
 
 $(document).ready(function(){
