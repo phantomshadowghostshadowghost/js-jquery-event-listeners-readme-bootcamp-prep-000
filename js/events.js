@@ -6,9 +6,9 @@ alert(`"Hey!"`))
 }
 
 function frameIt(){
-  $('img').on ('load', function(){
+  $('img').on ('load', () =>
    $('img').addClass('tasty')
-  })
+  )
 }
 function pressIt(){
   
