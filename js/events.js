@@ -7,7 +7,7 @@ alert(`"Hey!"`)
 
 function frameIt(){
   $('img').on ('load', function(){
-  const img = $('img').attr('tasty')
+   $('img').addClass('tasty')
   })
 }
 
